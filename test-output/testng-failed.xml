@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MDSFormSuite]">
+  <test name="mdsSanity(failed)">
+    <classes>
+      <class name="com.amind.NewTest">
+        <methods>
+          <include name="OrderHandOff"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.amind.NewTest -->
+    </classes>
+  </test> <!-- mdsSanity(failed) -->
+</suite> <!-- Failed suite [MDSFormSuite] -->

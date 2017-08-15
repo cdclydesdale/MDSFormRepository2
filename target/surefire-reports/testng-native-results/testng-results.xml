@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="215154" started-at="2017-08-15T14:43:19Z" finished-at="2017-08-15T14:46:54Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="215154" started-at="2017-08-15T14:43:19Z" finished-at="2017-08-15T14:46:54Z">
+      <class name="com.amind.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.amind.NewTest@73f792cf]" name="beforeClass" is-config="true" duration-ms="7706" started-at="2017-08-15T10:43:19Z" finished-at="2017-08-15T10:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.amind.NewTest@73f792cf]" name="Login" duration-ms="34421" started-at="2017-08-15T10:43:27Z" finished-at="2017-08-15T10:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="MDSFlowStart()[pri:0, instance:com.amind.NewTest@73f792cf]" name="MDSFlowStart" duration-ms="16180" started-at="2017-08-15T10:44:01Z" finished-at="2017-08-15T10:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MDSFlowStart -->
+        <test-method status="PASS" signature="OpptyPageStart()[pri:0, instance:com.amind.NewTest@73f792cf]" name="OpptyPageStart" duration-ms="63442" started-at="2017-08-15T10:44:17Z" finished-at="2017-08-15T10:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpptyPageStart -->
+        <test-method status="PASS" signature="OrderHandOff()[pri:0, instance:com.amind.NewTest@73f792cf]" name="OrderHandOff" duration-ms="93356" started-at="2017-08-15T10:45:21Z" finished-at="2017-08-15T10:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHandOff -->
+      </class> <!-- com.amind.NewTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

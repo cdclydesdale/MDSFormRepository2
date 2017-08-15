@@ -1,0 +1,7 @@
+<suite name="MDSFormSuite">
+	<test name="mdsSanity">
+		<classes>
+			<class name="com.amind.NewTest"></class>
+		</classes>
+	</test>
+</suite>
