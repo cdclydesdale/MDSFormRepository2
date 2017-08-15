@@ -22,8 +22,10 @@ public class NewTest {
   @BeforeClass
   public void beforeClass() {
 	  baseURL = "http://t1c1w546.vci.att.com:10080/mobilefirst";
-	  System.setProperty("webdriver.chrome.driver", "C:\\Selenium Automation\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
-	  driver = new ChromeDriver();
+	  DesiredCapabilities cap = DesiredCapabilities.chrome();
+	  cap.setBrowserName("Chrome");
+	  cap.setPlatform(Platform.WINDOWS);
+	  driver = new ChromeDriver(cap);
 	  driver.get(baseURL);
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
